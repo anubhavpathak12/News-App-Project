@@ -1,1 +1,1 @@
-New App
+News App project by using HTML, CSS, JAVASCRIPT and News API
