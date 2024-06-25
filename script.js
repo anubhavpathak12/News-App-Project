@@ -63,6 +63,7 @@ const searchText = document.getElementById("search-text");
 
 searchButton.addEventListener("click", () => {
     const query = searchText.value;
+    // if query not typed only search button clicked 
     if(!query) return;
     fetchNews(query);
     current_Selected_Nav_Items?.classList.remove('active');
